@@ -82,4 +82,250 @@
         <tag>工具使用总结</tag>
       </tags>
   </entry>
+  <entry>
+    <title>学习资源导航(持续更新)</title>
+    <url>/2021/03/06/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<h1 id="学习网站"><a href="#学习网站" class="headerlink" title="学习网站"></a>学习网站</h1><ul>
+<li>  <a href="https://www.bilibili.com/">bilibili</a></li>
+</ul>
+<p>简介：超多的公开课、学习资料、学习视频(尤其是一些搬运的国外的资源，质量很高)</p>
+<ul>
+<li>  <a href="https://github.com/">github</a></li>
+</ul>
+<p>简介：全球最大代码托管平台，各种开源代码(PS：需要翻墙或者使用微软Bing搜索)</p>
+<ul>
+<li>  <a href="https://www.csdn.net/">csdn</a></li>
+</ul>
+<p>简介：中国开发者社区(Chinese Software Developer Network )，有些博客质量很好</p>
+<ul>
+<li>  <a href="https://time.geekbang.org/">极客时间</a></li>
+</ul>
+<p>简介：面向程序员的学习网站，各个方向的学习专栏质量都很好，但是需要花钱买</p>
+<ul>
+<li>  <a href="https://www.imooc.com/">慕课网</a></li>
+</ul>
+<p>简介：IT技能学习平台，课程广泛</p>
+<h1 id="刷题网站"><a href="#刷题网站" class="headerlink" title="刷题网站"></a>刷题网站</h1><ul>
+<li><p>  <a href="https://leetcode-cn.com/">leetcode</a></p>
+</li>
+<li><p>  <a href="https://www.nowcoder.com/">牛客网</a></p>
+</li>
+</ul>
+<h1 id="学习资料"><a href="#学习资料" class="headerlink" title="学习资料"></a>学习资料</h1><h2 id="数据结构与算法"><a href="#数据结构与算法" class="headerlink" title="数据结构与算法"></a>数据结构与算法</h2><h4 id="视频："><a href="#视频：" class="headerlink" title="视频："></a>视频：</h4><h4 id="书籍："><a href="#书籍：" class="headerlink" title="书籍："></a>书籍：</h4><ul>
+<li>  算法第四版(基础)</li>
+<li>  算法导论(偏理论)</li>
+<li>  编程珠玑(改善思维方式)</li>
+</ul>
+<h4 id="刷题题目："><a href="#刷题题目：" class="headerlink" title="刷题题目："></a>刷题题目：</h4><p>LeetCode 剑指offer</p>
+<p>LeetCode top100 </p>
+<p>牛客网 高频TOP200</p>
+<h4 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h4><ul>
+<li>  <a href="https://mp.weixin.qq.com/s/weyitJcVHBgFtSc19cbPdw">代码随想录</a>    或者<a href="https://github.com/youngyangyang04/leetcode-master">github仓库</a></li>
+</ul>
+<h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  现代操作系统</li>
+</ul>
+<h4 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h4><ul>
+<li><p>  <a href="https://www.w3cschool.cn/linux/">Linux教程</a></p>
+</li>
+<li><p>  <a href="https://blog.csdn.net/qq_34827674/category_10149766.html?spm=1001.2014.3001.5482">图解操作系统</a></p>
+</li>
+<li><p>  <a href="https://www.kancloud.cn/thinkphp/linux-command-line/39431">The Linux Command Line中文版</a></p>
+</li>
+<li><p>  极客时间专栏-趣谈Linux</p>
+</li>
+<li><p>  极客时间专栏-Linux性能优化</p>
+</li>
+</ul>
+<h2 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h2><h4 id="视频-1"><a href="#视频-1" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-1"><a href="#书籍-1" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  入门</li>
+</ul>
+<p>图解TCP/IP</p>
+<p>The TCP/IP Guide</p>
+<ul>
+<li>  提高</li>
+</ul>
+<p><a href="http://www.52im.net/topic-tcpipvol1.html?mobile=no">TCP/IP详解 卷1：协议</a></p>
+<p>Unix高级环境编程</p>
+<p>Unix网络编程</p>
+<p>计算机网络(第五版)</p>
+<h4 id="资料-1"><a href="#资料-1" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  <a href="https://blog.csdn.net/qq_34827674/category_9811520.html?spm=1001.2014.3001.5482">图解计算机网络</a></li>
+<li>  <a href="https://coolshell.cn/articles/11564.html">TCP的那些事儿</a></li>
+</ul>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><h4 id="视频-2"><a href="#视频-2" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-2"><a href="#书籍-2" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  MySQL必知必会</li>
+</ul>
+<h4 id="资料-2"><a href="#资料-2" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  极客时间专栏-MySQL实战</li>
+</ul>
+<h2 id="计算机组成原理"><a href="#计算机组成原理" class="headerlink" title="计算机组成原理"></a>计算机组成原理</h2><h4 id="视频-3"><a href="#视频-3" class="headerlink" title="视频"></a>视频</h4><ul>
+<li>  <a href="https://www.bilibili.com/video/av24540152/">深入理解计算机系统</a></li>
+</ul>
+<h4 id="书籍-3"><a href="#书籍-3" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  深入理解计算机系统(程序员必读)</li>
+<li>  编码：隐匿在计算机软硬件背后的语言</li>
+<li>  程序员的自我修养：链接、装载和库</li>
+</ul>
+<h4 id="资料-3"><a href="#资料-3" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  极客时间-深入浅出计算机组成原理专栏</li>
+</ul>
+<h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><h3 id="C-C"><a href="#C-C" class="headerlink" title="C/C++"></a>C/C++</h3><h4 id="视频-4"><a href="#视频-4" class="headerlink" title="视频"></a>视频</h4><ul>
+<li>  <a href="https://space.bilibili.com/435866355/channel/detail?cid=171163">B站侯捷C++</a></li>
+</ul>
+<h4 id="书籍-4"><a href="#书籍-4" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  C程序设计语言</li>
+<li>  C语言程序设计现代方法</li>
+<li>  C陷阱与缺陷</li>
+<li>  C++ Primer中文版</li>
+<li>  Effective C++、More Effective C++</li>
+</ul>
+<h4 id="资料-4"><a href="#资料-4" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  <a href="https://github.com/19PDP/Bilibili-plus">侯捷C++视频、源代码、课件</a></li>
+<li>  <a href="https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/">C++风格指南</a></li>
+</ul>
+<h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3><h4 id="视频-5"><a href="#视频-5" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-5"><a href="#书籍-5" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  入门</li>
+</ul>
+<p>Java核心技术：卷1基础知识 或者 Head First Java</p>
+<ul>
+<li>  提高</li>
+</ul>
+<p>Effective Java</p>
+<p>Java并发编程</p>
+<p>深入理解Java虚拟机</p>
+<p>Java编程思想</p>
+<h4 id="资料-5"><a href="#资料-5" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  <a href="https://www.liaoxuefeng.com/wiki/1252599548343744">廖雪峰-Java教程</a></li>
+<li>  <a href="http://www.imooc.com/read/55"> 解锁大厂思维：剖析《阿里巴巴 Java 开发手册》 </a></li>
+</ul>
+<h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><h4 id="视频-6"><a href="#视频-6" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-6"><a href="#书籍-6" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  入门</li>
+</ul>
+<p>Python编程快速上手</p>
+<p>Python编程：从入门到实践</p>
+<h4 id="资料-6"><a href="#资料-6" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  <a href="https://www.liaoxuefeng.com/wiki/1016959663602400">廖雪峰-Python教程</a></li>
+</ul>
+<h2 id="软件设计"><a href="#软件设计" class="headerlink" title="软件设计"></a>软件设计</h2><h4 id="视频-7"><a href="#视频-7" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-7"><a href="#书籍-7" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  入门</li>
+</ul>
+<p>Head First 设计模式</p>
+<ul>
+<li>  提高</li>
+</ul>
+<p>设计模式</p>
+<h4 id="资料-7"><a href="#资料-7" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  极客时间专栏-左耳听风-编程范式游记</li>
+<li>  极客时间专栏-设计模式之美</li>
+</ul>
+<h2 id="编程能力"><a href="#编程能力" class="headerlink" title="编程能力"></a>编程能力</h2><h4 id="视频-8"><a href="#视频-8" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-8"><a href="#书籍-8" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  代码大全</li>
+<li>  代码简洁之道</li>
+<li>  重构</li>
+</ul>
+<h4 id="资料-8"><a href="#资料-8" class="headerlink" title="资料"></a>资料</h4><h1 id="音视频学习资料"><a href="#音视频学习资料" class="headerlink" title="音视频学习资料"></a>音视频学习资料</h1><h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><ul>
+<li>  <a href="http://www.52im.net/">即时通讯网</a></li>
+<li></li>
+</ul>
+<h2 id="多媒体开发"><a href="#多媒体开发" class="headerlink" title="多媒体开发"></a>多媒体开发</h2><h4 id="视频-9"><a href="#视频-9" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-9"><a href="#书籍-9" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  Android音视频开发</li>
+</ul>
+<h4 id="资料-9"><a href="#资料-9" class="headerlink" title="资料"></a>资料</h4><ul>
+<li><p>  <a href="https://blog.csdn.net/vn9PLgZvnPs1522s82g?spm=1001.2014.3001.5509">LiveVideoStack</a></p>
+</li>
+<li><p>  <a href="https://www.jianshu.com/c/e5b30935c054">简书-多媒体开发</a></p>
+</li>
+</ul>
+<h2 id="WebRTC"><a href="#WebRTC" class="headerlink" title="WebRTC"></a>WebRTC</h2><h4 id="视频-10"><a href="#视频-10" class="headerlink" title="视频"></a>视频</h4><h4 id="书籍-10"><a href="#书籍-10" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  WebRTC Native开发实战</li>
+</ul>
+<h4 id="资料-10"><a href="#资料-10" class="headerlink" title="资料"></a>资料</h4><ul>
+<li>  <a href="http://www.52im.net/forum.php?mod=collection&action=view&ctid=5">WebRTC实时音视频资料</a></li>
+<li>  <a href="https://blog.csdn.net/VideoCloudTech?spm=1001.2014.3001.5509">CSDN-阿里云视频云</a></li>
+</ul>
+<h2 id="FFmpeg"><a href="#FFmpeg" class="headerlink" title="FFmpeg"></a>FFmpeg</h2><h4 id="视频-11"><a href="#视频-11" class="headerlink" title="视频"></a>视频</h4><ul>
+<li>  <a href="https://coding.imooc.com/learn/list/279.html">经典再升级-FFmpeg音视频核心技术全面精讲+实战</a></li>
+</ul>
+<h4 id="书籍-11"><a href="#书籍-11" class="headerlink" title="书籍"></a>书籍</h4><ul>
+<li>  FFmpeg从入门到精通</li>
+</ul>
+<h4 id="资料-11"><a href="#资料-11" class="headerlink" title="资料"></a>资料</h4><h1 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h1><h4 id="编程工具"><a href="#编程工具" class="headerlink" title="编程工具"></a>编程工具</h4><ul>
+<li>  android studio </li>
+</ul>
+<p>主要用于java/android开发</p>
+<ul>
+<li>  visual studio</li>
+</ul>
+<p>主要用于C/C++开发</p>
+<p><a href="https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/">使用教程</a></p>
+<ul>
+<li>  xcode</li>
+</ul>
+<p>主要用于IOS开发</p>
+<ul>
+<li>  VS Code</li>
+</ul>
+<p>轻量级代码编辑器，调试、阅读代码非常方便，支持海量插件</p>
+<ul>
+<li>  vim</li>
+</ul>
+<p>功能强大的代码编辑器，必备的开发神器，linux/mac系统使用非常方便</p>
+<p><a href="https://github.com/wsdjeg/vim-galore-zh_cn">vim从入门到精通</a></p>
+<ul>
+<li>  git</li>
+</ul>
+<p>主要用于代码版本管理</p>
+<p>学习资料:</p>
+<p><a href="https://backlog.com/git-tutorial/cn/">猴子都能懂的Git入门</a></p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰-Git教程</a></p>
+<p><a href="https://git-scm.com/book/zh/v2/">Pro Git第二版</a></p>
+<p><a href="https://www.jianshu.com/p/1b65ed31da97">Git图文教程及详解</a></p>
+<ul>
+<li>  notepad++</li>
+</ul>
+<p>主要用于日志文件搜索、查看</p>
+<ul>
+<li>  Wireshark</li>
+</ul>
+<p>抓包工具</p>
+<p>学习资料：Wireshark数据包分析实战</p>
+<ul>
+<li>  gdb调试</li>
+</ul>
+<p>学习资料：<a href="https://blog.csdn.net/haoel/article/details/2879">用GDB调试程序</a></p>
+<ul>
+<li>   makefile 编译程序</li>
+</ul>
+<p>学习资料：<a href="https://blog.csdn.net/haoel/article/details/2886">跟我一起写makefile</a></p>
+<h4 id="画图工具"><a href="#画图工具" class="headerlink" title="画图工具"></a>画图工具</h4><ul>
+<li>  <a href="https://app.diagrams.net/">在线画图工具</a>  可以画各种流程图、UML图</li>
+</ul>
+<h4 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h4><ul>
+<li>  xmind</li>
+</ul>
+<p>知识总结、逻辑梳理必备、功能强大、非常好用</p>
+<h4 id="Markdown工具"><a href="#Markdown工具" class="headerlink" title="Markdown工具"></a>Markdown工具</h4><ul>
+<li>  Typora</li>
+</ul>
+<p>markdown语法简单, 文档书写非常方便，画面简洁美观</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="面试八股文"><a href="#面试八股文" class="headerlink" title="面试八股文"></a>面试八股文</h2><ul>
+<li><p>  <a href="https://www.kancloud.cn/thinkphp/linux-command-line/39431">JavaGuide面试突击版</a></p>
+</li>
+<li><p>  <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2MDU0ODM3MA==&action=getalbum&album_id=1728595536544366595&scene=173&from_msgid=2247485677&from_itemidx=1&count=3#wechat_redirect">逆序进大厂-C++</a></p>
+</li>
+<li></li>
+</ul>
+<h2 id="学习资料-1"><a href="#学习资料-1" class="headerlink" title="学习资料"></a>学习资料</h2><ul>
+<li>  <a href="http://c.biancheng.net/c/">C语言中文网–C语言教程</a>  以及<a href="http://c.biancheng.net/cplus/">C++教程</a>、Linux教程、Shell教程、<a href="http://c.biancheng.net/socket/">Socket编程</a></li>
+</ul>
+<h1 id="程序员技能图谱"><a href="#程序员技能图谱" class="headerlink" title="程序员技能图谱"></a>程序员技能图谱</h1><p><img src="/2021/03/06/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/Blog\daipinBlog\source_posts\学习资源导航-持续更新\程序员技能图谱.png"></p>
+]]></content>
+      <categories>
+        <category>学习资源</category>
+      </categories>
+      <tags>
+        <tag>学习资源</tag>
+      </tags>
+  </entry>
 </search>

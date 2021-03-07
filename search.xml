@@ -1,88 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo常用命令</title>
-    <url>/2021/02/27/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><h2 id="hexo-init"><a href="#hexo-init" class="headerlink" title="hexo init"></a>hexo init</h2><p><strong>用于初始化本地文件夹为网站的根目录</strong></p>
-<ul>
-<li>  使用方式：hexo init  [目录名]</li>
-<li>  目录名是可选参数，如果未指定初始化目录，则默认为当前目录</li>
-</ul>
-<h2 id="hexo-new"><a href="#hexo-new" class="headerlink" title="hexo new"></a>hexo new</h2><p><strong>用于创建新的文件(文章)</strong></p>
-<ul>
-<li>  使用方法：hexo n [layout]  <title></title></li>
-<li>  n是new的缩写</li>
-<li>  layout：可选参数，用于指定布局</li>
-</ul>
-<blockquote>
-<p>  hexo支持三种布局(layout) :  post(默认)、draft、page</p>
-<p>  若未指定，默认由配置文件中的default_layout选项决定</p>
-</blockquote>
-<ul>
-<li>  title：必填参数，用于指定生成的md文件名，如果文章名含有空格，文章名需要使用双引号包含</li>
-</ul>
-<blockquote>
-<p>  创建的文章位于source/_posts目录下</p>
-<p>  创建的md文件以Front-matter开头(其实就是该文章的一些变量，用于实现一些特定的功能)</p>
-  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">date:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">xxx</span></span><br><span class="line"><span class="string">categories:xxx</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-</blockquote>
-<ul>
-<li>  如何自定义Front-matter布局</li>
-</ul>
-<blockquote>
-<p>  修改scaffolds/目录下的draft.md/page.md/post.md文件</p>
-</blockquote>
-<ul>
-<li>  草稿</li>
-</ul>
-<blockquote>
-<p>  使用hexo n draft xxx命令将在source目录下创建_drafts目录，并生成一个xxx.md文件</p>
-<p>  编辑完草稿后，可以使用hexo publish xxx 把文章推送到_posts目录下</p>
-<p>  使用hexo  –draft命令查看已有的草稿</p>
-</blockquote>
-<h2 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h2><p>清除缓存文件db.json和已生成的静态文件public</p>
-<ul>
-<li>  博客网站显示异常时，可以尝试使用此命令</li>
-</ul>
-<h2 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h2><p>生成网站静态文件到默认设置的public文件夹</p>
-<ul>
-<li>  g是generate的缩写</li>
-<li>  使用该命令，便于查看网站生成的静态文件或者手动部署网站</li>
-<li>  如果使用自动部署，不需要先执行该命令</li>
-</ul>
-<h2 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h2><p>自动生成网站静态文件，并部署到设定的仓库</p>
-<ul>
-<li>  d是deploy的缩写</li>
-<li>  部署前需要修改_config.yml配置文件</li>
-</ul>
-<h2 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h2><p>启动本地服务器，用于预览主题 </p>
-<ul>
-<li>  s是server的缩写</li>
-<li>  运行服务器前需要安装hexo-server插件</li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-server --save</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>  默认地址：<a href="http://localhost:4000/%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%A6%81%E6%9B%B4%E6%94%B9%E7%AB%AF%E5%8F%A3%EF%BC%8C%E4%BD%BF%E7%94%A8hexo">http://localhost:4000/，如果要更改端口，使用hexo</a> s -p 端口号</li>
-<li>  预览的同时可以修改文章内容或者主题代码，保存后刷新页面即可</li>
-<li>  对hexo根目录_config.yml的修改，需要重启本地服务器后才能生效</li>
-</ul>
-<h2 id="hexo-new-page"><a href="#hexo-new-page" class="headerlink" title="hexo new page"></a>hexo new page</h2><p>用于生成博客页面</p>
-<ul>
-<li>  使用方式：hexo new page aboutme，新建一个aboutme的页面，默认链接地址为主页地址/aboutme/</li>
-</ul>
-<h2 id="hexo-–debug"><a href="#hexo-–debug" class="headerlink" title="hexo –debug"></a>hexo –debug</h2><p>用于调试模式，将详细消息记录到终端和debug.log文件中</p>
-]]></content>
-      <categories>
-        <category>工具使用</category>
-      </categories>
-      <tags>
-        <tag>工具使用总结</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>学习资源导航(持续更新)</title>
     <url>/2021/03/06/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</url>
     <content><![CDATA[<h1 id="学习网站"><a href="#学习网站" class="headerlink" title="学习网站"></a>学习网站</h1><ul>
@@ -326,6 +244,88 @@
       </categories>
       <tags>
         <tag>学习资源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo常用命令</title>
+    <url>/2021/02/27/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><h2 id="hexo-init"><a href="#hexo-init" class="headerlink" title="hexo init"></a>hexo init</h2><p><strong>用于初始化本地文件夹为网站的根目录</strong></p>
+<ul>
+<li>  使用方式：hexo init  [目录名]</li>
+<li>  目录名是可选参数，如果未指定初始化目录，则默认为当前目录</li>
+</ul>
+<h2 id="hexo-new"><a href="#hexo-new" class="headerlink" title="hexo new"></a>hexo new</h2><p><strong>用于创建新的文件(文章)</strong></p>
+<ul>
+<li>  使用方法：hexo n [layout]  <title></title></li>
+<li>  n是new的缩写</li>
+<li>  layout：可选参数，用于指定布局</li>
+</ul>
+<blockquote>
+<p>  hexo支持三种布局(layout) :  post(默认)、draft、page</p>
+<p>  若未指定，默认由配置文件中的default_layout选项决定</p>
+</blockquote>
+<ul>
+<li>  title：必填参数，用于指定生成的md文件名，如果文章名含有空格，文章名需要使用双引号包含</li>
+</ul>
+<blockquote>
+<p>  创建的文章位于source/_posts目录下</p>
+<p>  创建的md文件以Front-matter开头(其实就是该文章的一些变量，用于实现一些特定的功能)</p>
+  <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">date:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">xxx</span></span><br><span class="line"><span class="string">categories:xxx</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<ul>
+<li>  如何自定义Front-matter布局</li>
+</ul>
+<blockquote>
+<p>  修改scaffolds/目录下的draft.md/page.md/post.md文件</p>
+</blockquote>
+<ul>
+<li>  草稿</li>
+</ul>
+<blockquote>
+<p>  使用hexo n draft xxx命令将在source目录下创建_drafts目录，并生成一个xxx.md文件</p>
+<p>  编辑完草稿后，可以使用hexo publish xxx 把文章推送到_posts目录下</p>
+<p>  使用hexo  –draft命令查看已有的草稿</p>
+</blockquote>
+<h2 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h2><p>清除缓存文件db.json和已生成的静态文件public</p>
+<ul>
+<li>  博客网站显示异常时，可以尝试使用此命令</li>
+</ul>
+<h2 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h2><p>生成网站静态文件到默认设置的public文件夹</p>
+<ul>
+<li>  g是generate的缩写</li>
+<li>  使用该命令，便于查看网站生成的静态文件或者手动部署网站</li>
+<li>  如果使用自动部署，不需要先执行该命令</li>
+</ul>
+<h2 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h2><p>自动生成网站静态文件，并部署到设定的仓库</p>
+<ul>
+<li>  d是deploy的缩写</li>
+<li>  部署前需要修改_config.yml配置文件</li>
+</ul>
+<h2 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h2><p>启动本地服务器，用于预览主题 </p>
+<ul>
+<li>  s是server的缩写</li>
+<li>  运行服务器前需要安装hexo-server插件</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm install hexo-server --save</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>  默认地址：<a href="http://localhost:4000/%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%A6%81%E6%9B%B4%E6%94%B9%E7%AB%AF%E5%8F%A3%EF%BC%8C%E4%BD%BF%E7%94%A8hexo">http://localhost:4000/，如果要更改端口，使用hexo</a> s -p 端口号</li>
+<li>  预览的同时可以修改文章内容或者主题代码，保存后刷新页面即可</li>
+<li>  对hexo根目录_config.yml的修改，需要重启本地服务器后才能生效</li>
+</ul>
+<h2 id="hexo-new-page"><a href="#hexo-new-page" class="headerlink" title="hexo new page"></a>hexo new page</h2><p>用于生成博客页面</p>
+<ul>
+<li>  使用方式：hexo new page aboutme，新建一个aboutme的页面，默认链接地址为主页地址/aboutme/</li>
+</ul>
+<h2 id="hexo-–debug"><a href="#hexo-–debug" class="headerlink" title="hexo –debug"></a>hexo –debug</h2><p>用于调试模式，将详细消息记录到终端和debug.log文件中</p>
+]]></content>
+      <categories>
+        <category>工具使用</category>
+      </categories>
+      <tags>
+        <tag>工具使用总结</tag>
       </tags>
   </entry>
 </search>
